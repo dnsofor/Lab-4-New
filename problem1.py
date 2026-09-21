@@ -1,6 +1,5 @@
 def opposite_sign(a,b):
-      """Return True if a is greater than b, and False otherwise.
-
+    """Return True if a is greater than b, and False otherwise.
     >>> opposite_sign(9, 3)
     True
     >>> opposite_sign(4, 7)
