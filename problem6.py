@@ -39,10 +39,28 @@ def with_if_function():
   return if_function(c(), t(), f())
 
 def c():
-  ### you write this
+  """Return False.
+  >>> c()
+  False
+  """
+  return False
+
 
 def t():
-  ### you write this
+  """Print 1 and return 1.
+  >>> t()
+  1
+  1
+  """
+  print(1)
+  return 1
+
 
 def f():
-  ### you write this
+  """Print 2 and return 2.
+  >>> f()
+  2
+  2
+  """
+  print(2)
+  return 2
