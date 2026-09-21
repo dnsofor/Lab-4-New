@@ -8,5 +8,11 @@ def divisible_by_m(n,m):
   True
   >>> divisible_by_m(-6, 2)
   True
+  >>> divisible_by_m(10, 5)
+  True
+  >>> divisible_by_m(7, 3)
+  False
+  >>> divisible_by_m(5, 0)
+  False
   """
   return n % m == 0
